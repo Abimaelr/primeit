@@ -18,7 +18,11 @@ function index() {
                             <p>Somos apaixonados por pessoas e por tecnologia.</p>
                             <p>Os nossos resultados são o reflexo disso.</p>
                         </div>
-                        <div>Segundo Quadrado</div>
+                        <div className="jobs">
+                            <h4>React.js</h4>
+                            <p> <i class="las la-map-marker"></i> Porto</p>
+                            <p> <i class="las la-clock"></i> Full-time</p>
+                        </div>
                     </div>
                     <div className="center">
                         <div className="squareTitle">

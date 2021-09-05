@@ -32,24 +32,24 @@ h3 span {
   height: 80vh;
 }
 
-.carousel {
+.footerCar {
   position: absolute;
   width: 100%;
   height: 80vh;
   z-index: 1;
 }
 
-.carousel .carousel-inner {
+.footerCar .carousel-inner {
   height: 80vh;
   -webkit-filter: saturate(0.8) sepia(1) contrast(0.3) brightness(1.2);
           filter: saturate(0.8) sepia(1) contrast(0.3) brightness(1.2);
 }
 
-.carousel .carousel-inner img {
+.footerCar .carousel-inner img {
   width: 100%;
 }
 
-.carousel a {
+.footerCar a {
   display: none;
 }
 /*# sourceMappingURL=style.css.map */

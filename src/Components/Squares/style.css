@@ -76,6 +76,20 @@
   font-size: 0.7rem;
 }
 
+.col1 .jobs {
+  background-color: #7E4E36;
+}
+
+.col1 .jobs h4 {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.col1 .jobs p {
+  color: #F2F2F3;
+}
+
 .col3 {
   background-image: url("https://www.primeit.pt/public/uploads/2015/06/home-destaque12.jpg");
   background-size: cover;

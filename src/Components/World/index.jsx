@@ -45,7 +45,7 @@ function index() {
                 </h3>
             </div>
             <div className="images">
-                <Carousel fade>
+                <Carousel className="footerCar" fade>
                     <Carousel.Item >
                         <img
                         className="d-block footerSlide"

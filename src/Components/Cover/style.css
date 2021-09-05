@@ -8,6 +8,16 @@
   height: 100vh;
 }
 
+.coverEl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 #coverVideo {
   overflow-x: hidden;
   min-width: 100%;
@@ -50,5 +60,15 @@
   font-family: 'PlayFair Display', Arial, Helvetica, sans-serif;
   font-style: italic;
   font-weight: 100;
+}
+
+.vol {
+  font-size: 4rem;
+  text-align: center;
+  margin: auto;
+}
+
+.vol:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
