@@ -1,16 +1,15 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
 import tel from './assets/tel.png';
 import it from './assets/it.png';
 import inf from './assets/inf.png';
 import en from './assets/ener.png';
+
 
 import './style.css';
 
 function index() {
     return (
         <div id="section">
-            <Container>
                 <div className="squareGroup">
                     <div className="col1">
                         <div>Primeiro Quadrado</div>
@@ -44,8 +43,6 @@ function index() {
                     </div>
                    
                 </div>
-            </Container>
-            <Container>
                 <div id="Area">
                     <div className="featuresText">
                         <h3>As nossas áreas de actividade</h3>
@@ -77,7 +74,6 @@ function index() {
                         </div>
                     </div>
                     </div>
-            </Container>
             
         </div>
     )

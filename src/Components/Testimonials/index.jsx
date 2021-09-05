@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
 import './style.css';
 import quote from './assets/quote.svg'
 import david from './assets/david.jpg'
@@ -8,7 +7,7 @@ import david from './assets/david.jpg'
 
 function index() {
     return (
-        <Container>
+        <div>
             <div className="testimonial">
                 <div className="testimonialTitle">
                     <img src={quote} alt="Quote" />
@@ -97,7 +96,7 @@ function index() {
                     
                 </div>
             </div>
-        </Container>
+        </div>
     )
 }
 

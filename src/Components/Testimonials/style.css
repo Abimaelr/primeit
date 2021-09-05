@@ -60,7 +60,7 @@
 
 .list-team {
   margin: auto;
-  width: 80%;
+  width: 1250px;
   list-style: none;
   padding: 0;
   display: -webkit-box;
@@ -75,7 +75,7 @@
 }
 
 .list-team li img {
-  width: 12vw;
+  width: 200px;
 }
 
 .hole {
@@ -89,11 +89,11 @@
   display: -ms-flexbox;
   display: flex;
   background-color: white;
-  width: 700px;
+  width: 820px;
   position: absolute;
-  height: 240px;
-  -webkit-transform: translate(-40px, -40px);
-          transform: translate(-40px, -40px);
+  height: 280px;
+  -webkit-transform: translate(-60px, -40px);
+          transform: translate(-60px, -40px);
   padding: 20px 40px;
 }
 
