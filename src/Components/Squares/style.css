@@ -1,1 +1,125 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&family=Roboto:wght@300;400;700&display=swap");
+#section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #312925;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.squareGroup {
+  -webkit-transform: translateY(-28vh);
+          transform: translateY(-28vh);
+  margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 60vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.col1 {
+  display: -ms-grid;
+  display: grid;
+  row-gap: 20px;
+  width: 208px;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+}
+
+.col1 div {
+  background: blue;
+}
+
+.col3 {
+  background: blue;
+  width: 208px;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+}
+
+.center {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+  width: 600px;
+  background: #54E50D;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  padding: 35px 30px;
+}
+
+.center .squareTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 300px;
+}
+
+.center .squareTitle h4 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.center .resume {
+  width: 200px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: auto;
+}
+
+.center .resume p {
+  font-size: 0.8rem;
+}
+
+.minifooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.minifooter .line {
+  height: 2px;
+  width: 20px;
+  margin: 0 5px;
+  background: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.minifooter:hover .line {
+  width: 40px;
+}
+/*# sourceMappingURL=style.css.map */
