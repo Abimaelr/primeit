@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
 
 #section
     display: flex
@@ -11,7 +12,7 @@
     font-family: 'Montserrat', sans-serif
 
 .squareGroup
-    transform: translateY(-28vh)
+    transform: translateY(-8vh)
     margin: auto
     width: fit-content
     height: 60vh
@@ -69,4 +70,50 @@
         transition: 1s
     &:hover .line
         width: 40px
-   
+
+#Area
+    display: flex
+    flex-direction: column
+    // background: white
+    width: 820px
+    .featuresText
+        width: 600px
+        margin: auto
+        h3
+            color: #54E50D
+            font-family: 'Playfair Display', serif;
+            font-style: normal
+            font-weight: 400
+            text-align: center
+            font-size: 2.5rem
+            margin: 0
+            margin-bottom: 20px
+        p
+            font-family: 'Montserrat'
+            font-size: 0.8rem
+            text-align: center
+            color: rgba(255, 255,255 ,0.3 )
+        .line
+            height: 5px
+            width: 100px
+            margin: auto
+            background-color: #54E50D
+    .icons
+        margin: 100px auto
+        width: 100%
+        display: flex
+        justify-content: space-evenly
+        div
+            display: flex
+            flex-direction: column
+            color: rgba(255, 255,255 ,0.3 )
+            p   
+                text-align: center
+                font-size: 0.7rem
+            img
+                height: 80px
+                // width: 90px
+                // width: 110px
+            .infra
+                width: 75px
+                margin: auto

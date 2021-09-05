@@ -1,6 +1,12 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import tel from './assets/tel.png';
+import it from './assets/it.png';
+import inf from './assets/inf.png';
+import en from './assets/ener.png';
+
 import './style.css';
+
 function index() {
     return (
         <div id="section">
@@ -40,18 +46,36 @@ function index() {
                 </div>
             </Container>
             <Container>
-            <div id="Area">
-                        <h3><em>As nossas áreas de actividade</em></h3>
+                <div id="Area">
+                    <div className="featuresText">
+                        <h3>As nossas áreas de actividade</h3>
                         <div className="line" />
                         <p>A experiência adquirida nas áreas de actividade onde actuamos, permite-nos fazer face a qualquer tipo de desafio. Conheça o que fazemos.</p>
-                        <div className="icons">
-                            <div>
+                    </div>
+                    <div className="icons">
+                        <div>
+                            <img src={tel} alt="Telecom" />
+                            <p>
                                 TELECOM
-                            </div>
-                            <div>IT</div>
-                            <div>ENERGIA</div>
-                            <div>INFRAESTRUTURAS</div>
+                            </p>
                         </div>
+                        <div>
+                            <img src={it} alt="IT" />
+                            <p>
+                                IT
+                            </p>
+                        </div>
+                        <div>
+                            <img src={en} alt="Energy" />
+                            <p>ENERGIA</p>
+                        </div>
+                        <div>
+                            <img className="infra" src={inf} alt="Infra" />
+                            <p>
+                                INFRAESTRUTURAS
+                            </p>
+                        </div>
+                    </div>
                     </div>
             </Container>
             
