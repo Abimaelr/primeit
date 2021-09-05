@@ -111,6 +111,11 @@
   cursor: pointer;
 }
 
+.minifooter p {
+  font-size: 0.8rem;
+  color: white;
+}
+
 .minifooter .line {
   height: 2px;
   width: 20px;

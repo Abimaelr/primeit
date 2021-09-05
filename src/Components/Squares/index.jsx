@@ -24,7 +24,7 @@ function index() {
                             </div>
                             <div className="minifooter">
                                 <div className="line"/>
-                                <p>Faz a tua equipa</p>
+                                <p>Ver Oportunidades de Emprego (214)</p>
                             </div>
                         </div>
                         <div className="resume">
