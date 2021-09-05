@@ -71,4 +71,12 @@
 .vol:hover {
   cursor: pointer;
 }
+
+.logo {
+  position: absolute;
+  z-index: 3;
+  right: 0;
+  height: 80px;
+  width: auto;
+}
 /*# sourceMappingURL=style.css.map */

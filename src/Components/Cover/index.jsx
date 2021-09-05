@@ -1,11 +1,13 @@
 import React,{useState} from 'react';
 import './style.css';
 import cover from './assets/cover.mp4';
+import prime from './assets/primeit.png';
 
 function index() {
     const [mute, setMute] = useState(true);
     return (
         <div id="cover">
+            <img src={prime} className="logo" alt="primeIT" />
             <video id="coverVideo" autoPlay="true" loop muted={mute}>
                 <source src={ cover } type="video/mp4" />
             </video>
