@@ -8,6 +8,18 @@ import en from './assets/ener.png';
 import './style.css';
 
 function index() {
+
+    window.addEventListener('scroll', (e) =>{
+        let scroll = document.body.getBoundingClientRect().top;
+        console.log(scroll)
+        if(scroll > -650) {
+            const col1 = document.querySelector('.col1');
+            const col3 = document.querySelector('.col3');
+            col1.style.transform = `translateY(${100 + scroll*0.155}px)`
+            col3.style.transform = `translateY(${100 + scroll*0.155}px)`
+        }
+    })
+
     return (
         <div id="section">
                 <div className="squareGroup">

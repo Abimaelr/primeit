@@ -44,6 +44,8 @@
   height: 208px;
   -webkit-transform: translateY(100px);
           transform: translateY(100px);
+  -webkit-transition: 200ms;
+  transition: 200ms;
 }
 
 .col1 div {
@@ -97,6 +99,8 @@
   width: 208px;
   -webkit-transform: translateY(100px);
           transform: translateY(100px);
+  -webkit-transition: 200ms;
+  transition: 200ms;
 }
 
 .col3 .call {
