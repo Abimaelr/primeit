@@ -12,7 +12,12 @@ function index() {
         <div id="section">
                 <div className="squareGroup">
                     <div className="col1">
-                        <div>Primeiro Quadrado</div>
+                        <div>
+                            <h4>Sucesso</h4>
+                            <p>A receita é simples:</p>
+                            <p>Somos apaixonados por pessoas e por tecnologia.</p>
+                            <p>Os nossos resultados são o reflexo disso.</p>
+                        </div>
                         <div>Segundo Quadrado</div>
                     </div>
                     <div className="center">

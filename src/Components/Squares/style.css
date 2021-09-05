@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;800;900&family=Roboto:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap");
 #section {
   display: -webkit-box;
@@ -41,19 +41,72 @@
   display: grid;
   row-gap: 20px;
   width: 208px;
+  height: 208px;
   -webkit-transform: translateY(100px);
           transform: translateY(100px);
 }
 
 .col1 div {
-  background: blue;
+  padding: 0 20px;
+  background: #F2F2F3;
+  color: #54E50D;
+  font-family: 'Montserrat';
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.col1 div h4 {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.col1 div p {
+  color: #14141471;
+  margin: 0;
+  font-size: 0.7rem;
 }
 
 .col3 {
-  background: blue;
+  background-image: url("https://www.primeit.pt/public/uploads/2015/06/home-destaque12.jpg");
+  background-size: cover;
+  background-position: center;
   width: 208px;
   -webkit-transform: translateY(100px);
           transform: translateY(100px);
+}
+
+.col3 .call {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.col3 .call h4 {
+  margin: 0;
+  margin-left: 20px;
+  margin-right: 50px;
+  margin-top: 50px;
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: 700;
 }
 
 .center {
@@ -108,18 +161,24 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   cursor: pointer;
+  height: 50px;
+  width: 200px;
 }
 
 .minifooter p {
   font-size: 0.8rem;
   color: white;
+  font-weight: 600;
+  margin: 0;
 }
 
 .minifooter .line {
   height: 2px;
   width: 20px;
-  margin: 0 5px;
+  margin: auto 5px auto 0;
   background: white;
   -webkit-transition: 1s;
   transition: 1s;

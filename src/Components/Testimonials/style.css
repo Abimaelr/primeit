@@ -110,7 +110,7 @@
   width: 60%;
 }
 
-.minifooter {
+.minif {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -120,25 +120,101 @@
   -ms-flex-item-align: end;
       align-self: flex-end;
   cursor: pointer;
+  height: 50px;
   width: 200px;
 }
 
-.minifooter p {
+.minif p {
   font-size: 0.8rem;
   color: #54E50D;
   font-weight: 600;
+  margin: 0;
 }
 
-.minifooter .line {
+.minif .line {
   height: 2px;
   width: 20px;
-  margin: 0 5px;
+  margin: auto 5px;
   background: #54E50D;
   -webkit-transition: 1s;
   transition: 1s;
 }
 
-.minifooter:hover .line {
+.minif:hover .line {
   width: 40px;
+}
+
+.clients {
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.clients .clientsTitle {
+  font-family: 'Montserrat';
+  letter-spacing: 4px;
+  font-size: 0.5rem;
+  color: #B3968B;
+  font-weight: 600;
+  text-align: center;
+}
+
+.clients .clientsIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 80px;
+  width: 500px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.clients .clientsIcon div {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 140px;
+  width: 140px;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.clients .clientsIcon .pt {
+  background-image: url("./assets/pt2_grey.png");
+  cursor: pointer;
+}
+
+.clients .clientsIcon .pt:hover {
+  background-image: url("./assets/pt2.png");
+}
+
+.clients .clientsIcon .tap {
+  background-image: url("./assets/tap_grey.png");
+  cursor: pointer;
+}
+
+.clients .clientsIcon .tap:hover {
+  background-image: url("./assets/tap.png");
+}
+
+.clients .clientsIcon .nos {
+  background-image: url("./assets/nos_grey.png");
+  cursor: pointer;
+}
+
+.clients .clientsIcon .nos:hover {
+  background-image: url("./assets/nos.png");
 }
 /*# sourceMappingURL=style.css.map */

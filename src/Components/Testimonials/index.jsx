@@ -58,7 +58,7 @@ function index() {
                                     <h1>Fazemos a diferença.</h1>
                                     <h1>Todos os dias.</h1>
                                 </div>
-                                <div className="minifooter">
+                                <div className="minif">
                                     <div className="line"/>
                                     <p>Os nossos valores</p>
                                 </div>
@@ -94,6 +94,16 @@ function index() {
                         </li>
                     </ul>
                     
+                </div>
+            </div>
+            <div className="clients">
+                <div className="clientsTitle">
+                    <p>MAIS DE 150 CLIENTES ACTIVOS CONFIAM EM NÓS.</p>
+                </div>
+                <div className="clientsIcon">
+                    <div className="pt" />
+                    <div className="tap" />
+                    <div className="nos" />
                 </div>
             </div>
         </div>
